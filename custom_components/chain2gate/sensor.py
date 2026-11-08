@@ -6,9 +6,9 @@ from decimal import Decimal
 from homeassistant.components.sensor import (
     SensorDeviceClass,
     SensorEntity,
-    SensorStateClass,
-    RestoreEntity
+    SensorStateClass
 )
+from homeassistant.helpers.restore_state import RestoreEntity
 from homeassistant.components.sensor.const import SensorDeviceClass
 from homeassistant.core import HomeAssistant
 from homeassistant.config_entries import ConfigEntry
